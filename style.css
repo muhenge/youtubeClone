@@ -1,19 +1,36 @@
-html body{
-    padding: 0;
-    margin: 0;
+body{
+    margin: 12px;
 }
 nav{
-    padding-left: 70px;
-    
-    margin: 12px;
+    padding: 15px;
+
+}
+input{
+    width: 65%;
+    margin-left:15px;
+    margin-right: 35px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 80% 20%;
 }
 #main-video{
     background-color: blue;
-    margin-left: 35px;
-    width: 60%;
-    
+    width: 70%;
+    height: 35%;
+}
+
+#vids1{
+    background-color:green;
+    width: 50%;
+
 
 }
-hr{
+
+#vids2{
+    background-color:green;
+    width: 50%;
+
 
 }
