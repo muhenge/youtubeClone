@@ -1,0 +1,19 @@
+html body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding-left: 70px;
+    
+    margin: 12px;
+}
+#main-video{
+    background-color: blue;
+    margin-left: 35px;
+    width: 60%;
+    
+
+}
+hr{
+
+}
