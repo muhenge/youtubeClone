@@ -1,36 +1,25 @@
 body{
-    margin: 12px;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
 }
-nav{
-    padding: 15px;
-
-}
-input{
-    width: 65%;
-    margin-left:15px;
-    margin-right: 35px;
-}
-
 main{
+    margin-top: 95px;
+    padding: 12px;
     display: grid;
-    grid-template-columns: 80% 20%;
+
+    grid-template-columns: 65% 35%;
 }
-#main-video{
-    background-color: blue;
-    width: 70%;
-    height: 35%;
+#main{
+   
 }
-
-#vids1{
-    background-color:green;
-    width: 50%;
-
-
+.vids{
+    background-color: blueviolet;
+    width:100%;
+    height: 350px;
 }
-
-#vids2{
-    background-color:green;
-    width: 50%;
-
-
+#side{
+    padding: 15px;
+    margin-left:12px;
+    background-color: white;
 }
