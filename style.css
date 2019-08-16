@@ -34,3 +34,17 @@ main{
     background-color: blue;
     width: 55%;
 }
+nav{
+    width: 100%;
+    align:center;
+}
+nav>ul>li{
+
+    list-style-type: none;
+    height: 50px;
+    float: left;
+}
+nav>ul>li>form{
+    width: 70%;
+}
+
