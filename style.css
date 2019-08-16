@@ -34,17 +34,37 @@ main{
     background-color: blue;
     width: 55%;
 }
-nav{
-    width: 100%;
-    align:center;
+.flex-container{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    
 }
-nav>ul>li{
+ .flex-container>div{
+  width: 100px;
+  margin: 10px;
+ }
 
-    list-style-type: none;
-    height: 50px;
-    float: left;
-}
-nav>ul>li>form{
-    width: 70%;
-}
-
+ .flex-container>div>form>input{
+    height: 40px;
+    box-sizing: border-box;
+ }
+ .flex-container>div>form>button{
+    height: 40px;
+    box-sizing: border-box;
+    margin-left: 0%;
+    width: 66px;
+    border-radius: 0%;
+    border-style: none;
+ }
+ .btn{
+     background: rgb(22, 122, 198);
+     color: white;
+     width: 100px;
+     border-radius: 5%;
+     border: none;
+     height: 30px;
+ }
