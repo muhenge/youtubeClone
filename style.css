@@ -5,22 +5,20 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 main{
-    margin-top: 95px;
+    
     padding: 12px;
     display: grid;
 
     grid-template-columns: 65% 35%;
 }
-#main{
-   
-}
+
 .vids{
     background-color: blueviolet;
     width:100%;
     height: 350px;
 }
 #side{
-    /* padding: 15px; */
+   
     margin-left:12px;
     background-color: white;
    
@@ -34,9 +32,7 @@ main{
 }
 .side-videos{
     margin: 10px;
-    /* width: 20%; */
-    
-    /* grid-template-columns: 35% %; */
+
 }
 
 
@@ -56,56 +52,9 @@ img{
     width: 90%;
 }
 
-/* .side-videos .vid-comment p{
-  float: right;
-  color: blue;
-
-} */
 .vid-link>a{
 
 }
 .side-videos>a>img{
     width: 185px;
 }
-.flex-container{
-    flex-direction: row;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    
-}
- .flex-container>div{
-  width: 100px;
-  margin: 10px;
- }
-
- .flex-container>div>form>input{
-    height: 40px;
-    box-sizing: border-box;
- }
- .flex-container>div>form>button{
-    height: 40px;
-    box-sizing: border-box;
-    margin-left: 0%;
-    width: 66px;
-    border-radius: 0%;
-    border-style: none;
- }
- .btn{
-     background: rgb(22, 122, 198);
-     color: white;
-     width: 100px;
-     border-radius: 5%;
-     border: none;
-     height: 30px;
-     cursor : pointer;
- }
- #uploading{
-     
- }
- /* .vid-comment{
-     float: right;
-
- } */
