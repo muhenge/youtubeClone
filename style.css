@@ -58,3 +58,100 @@ img{
 .side-videos>a>img{
     width: 185px;
 }
+
+header nav{
+    width: 100%;
+    background: skyblue;
+    height: 50px;
+    box-sizing: border-box;
+}
+header nav ul .search{
+    width:70%;
+    padding: 0%;
+    box-sizing: border-box;
+    height:60px;
+}
+header ul form input{
+
+    width: 90%;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-right: 0%;
+}
+header ul form button{
+    width: 10%;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-left: -6px;
+}
+header{
+    height: 50px;
+    width:100%;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+
+    display: inline-block;
+}
+header nav{
+    width: 100%;
+    background: skyblue;
+    height: 50px;
+    box-sizing: border-box;
+}
+header nav ul .search{
+    width:70%;
+    padding: 0%;
+    box-sizing: border-box;
+    height:60px;
+}
+header ul form input{
+
+    width: 90%;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-right: 0%;
+}
+header ul form button{
+    width: 10%;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-left: -6px;
+}
+.header ul upload{
+
+    font-size: 6em;
+}
+header ul form{
+    padding: 0%;
+   
+}
+nav ul li{
+    margin: 10px;
+}
+ .btn{
+     background: rgb(22, 122, 198);
+     color: white;
+     width: 80px;
+     border-radius: 5%;
+     border: none;
+     height: 40px;
+     box-sizing: border-box;
+ }
+ .logo{
+    
+     height: 40px;
+     box-sizing: border-box;
+ }
