@@ -8,7 +8,6 @@ main{
     
     padding: 12px;
     display: grid;
-
     grid-template-columns: 65% 35%;
 }
 
@@ -61,15 +60,14 @@ img{
 
 header nav{
     width: 100%;
-    background: skyblue;
-    height: 50px;
+    height: 40px;
     box-sizing: border-box;
 }
 header nav ul .search{
     width:70%;
     padding: 0%;
     box-sizing: border-box;
-    height:60px;
+    height:40px;
 }
 header ul form input{
 
@@ -91,7 +89,9 @@ header ul form button{
 header{
     height: 50px;
     width:100%;
-    margin: auto;
+    box-sizing: border-box;
+    margin-top: -10px;
+    padding-top: 0px;
 }
 
 ul{
@@ -103,15 +103,14 @@ ul li{
 }
 header nav{
     width: 100%;
-    background: skyblue;
     height: 50px;
     box-sizing: border-box;
 }
 header nav ul .search{
-    width:70%;
+    width:72%;
     padding: 0%;
     box-sizing: border-box;
-    height:60px;
+    height:50px;
 }
 header ul form input{
 
@@ -130,16 +129,14 @@ header ul form button{
     border-radius: 2px;
     margin-left: -6px;
 }
-.header ul upload{
 
-    font-size: 6em;
-}
 header ul form{
     padding: 0%;
    
 }
 nav ul li{
-    margin: 10px;
+    margin-left: 5px;
+   
 }
  .btn{
      background: rgb(22, 122, 198);
@@ -154,4 +151,6 @@ nav ul li{
     
      height: 40px;
      box-sizing: border-box;
+    
+  
  }
