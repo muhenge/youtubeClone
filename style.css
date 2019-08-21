@@ -94,10 +94,10 @@ header{
     padding-top: 0px;
 }
 
-ul{
+ul, ol{
     list-style-type: none;
 }
-ul li{
+ul li, ol li{
 
     display: inline-block;
 }
@@ -151,6 +151,106 @@ nav ul li{
     
      height: 40px;
      box-sizing: border-box;
-    
   
  }
+ .social{
+     box-sizing: border-box;
+     height: 30px;
+     width: 100%;
+     
+ }
+ 
+ .social .share{
+    float: left;
+    height: 30px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    padding-top: 4px;
+    cursor: pointer;
+ }
+
+ .social .likes{
+    
+    height: 30px;
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 3px;
+    padding-top: 3px;
+    list-style-type: none;
+ }
+ .social .share li a{
+    color: #777;
+    text-decoration: none;
+ }
+ .social .likes li{
+     margin-left: 5px;
+     cursor: pointer;
+     color: #777;
+ }
+ .feeds{
+     width: 100%;
+     box-sizing: border-box;
+    height: 50px;
+    
+        
+ }
+ 
+ .feeds .subscribe{
+     float: left;
+     margin-top: 3px;
+     box-sizing: border-box;
+     height: 50px;
+     line-height: 50px;
+ }
+
+ .feeds .subscribe .avater{
+    text-decoration: none;
+    margin-top: 0px;
+ }
+ .feeds .views{
+     float: right;
+     box-sizing: border-box;
+     line-height: 40px;
+     margin-top: 3px;
+     font-size: 25px;
+     font-weight: bold;
+    color: rgb(102, 102, 102);
+ }
+ .line{
+    border-bottom-color: #777;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 100%;
+ }
+
+ .feeds ol li .btnsubnumber{
+     border-style: solid;
+     background-color: whitesmoke;
+     border-radius: 0px;
+     height: 25px;
+     border-color: #ccc;
+     border-width:1px;
+     width:35px; 
+     margin: 0px;
+     text-align: center;
+     color: #777;
+     line-height: 40px;
+ }
+
+ .feeds ol li img{
+   
+    border-radius: 0px;
+   
+}
+.feeds ol .btnlisub{
+    box-sizing: border-box;
+    padding: 0px;
+    margin-left: -16px; 
+}
+.btn-div{
+    height: 25px;
+    box-sizing: border-box;
+   
+}
