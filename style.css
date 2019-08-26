@@ -1,8 +1,14 @@
 body{
     margin: 0;
+    margin-top: 0;
     padding: 0;
     background-color:whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:85%;
+    margin: auto;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 2px;
 }
 main{
     
@@ -58,15 +64,33 @@ img{
     width: 185px;
 }
 
+header{
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0px;
+}
 header nav{
     width: 100%;
-    height: 40px;
+    height: 70px;
     box-sizing: border-box;
+    margin: 0%;
+    background-color: white;
+}
+header nav ul{
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0%;
+    text-align: center;
+}
+header nav ul li{
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0%;
+    text-align: center;
+    
 }
 header nav ul .search{
-    width:70%;
-    padding: 0%;
-    box-sizing: border-box;
+    width:50%;
     height:40px;
 }
 header ul form input{
@@ -87,7 +111,7 @@ header ul form button{
     margin-left: -6px;
 }
 header{
-    height: 50px;
+    height: 70px;
     width:100%;
     box-sizing: border-box;
     margin-top: -10px;
@@ -103,14 +127,16 @@ ul li, ol li{
 }
 header nav{
     width: 100%;
-    height: 50px;
+    height: 70px;
     box-sizing: border-box;
+    text-align: center;
 }
 header nav ul .search{
-    width:72%;
+    width:53%;
     padding: 0%;
     box-sizing: border-box;
     height:50px;
+    margin-left: 3%;
 }
 header ul form input{
 
@@ -134,17 +160,14 @@ header ul form{
     padding: 0%;
    
 }
-nav ul li{
-    margin-left: 5px;
-   
-}
+
  .btn{
      background: rgb(22, 122, 198);
      color: white;
      width: 80px;
      border-radius: 5%;
      border: none;
-     height: 40px;
+     height: 30px;
      box-sizing: border-box;
  }
  .logo{
@@ -192,7 +215,7 @@ nav ul li{
  .feeds{
      width: 100%;
      box-sizing: border-box;
-    height: 50px;
+    height: 40px;
     
         
  }
@@ -201,28 +224,38 @@ nav ul li{
      float: left;
      margin-top: 3px;
      box-sizing: border-box;
-     height: 50px;
-     line-height: 50px;
+     height: 40px;
+     line-height: 40px;
  }
 
  .feeds .subscribe .avater{
     text-decoration: none;
     margin-top: 0px;
+    
  }
+
+ .feeds .subscribe li img{
+     position: relative;
+     top: 7px;
+ }
+
  .feeds .views{
      float: right;
      box-sizing: border-box;
      line-height: 40px;
      margin-top: 3px;
-     font-size: 25px;
+     font-size: 20px;
      font-weight: bold;
-    color: rgb(102, 102, 102);
+     position: relative;
+     top: 22px;
+     color: rgb(102, 102, 102);
  }
  .line{
     border-bottom-color: #777;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     width: 100%;
+    margin-top: 0.5px;
  }
 
  .feeds ol li .btnsubnumber{
@@ -234,9 +267,11 @@ nav ul li{
      border-width:1px;
      width:35px; 
      margin: 0px;
-     text-align: center;
+     margin-top: 2px;
      color: #777;
-     line-height: 40px;
+     line-height: 25px;
+     
+     
  }
 
  .feeds ol li img{
@@ -253,4 +288,12 @@ nav ul li{
     height: 25px;
     box-sizing: border-box;
    
+}
+nav ul .right-component{
+    margin-left: 1.5%;
+}
+
+nav ul .right-component img, nav ul .logo{
+    position: relative;
+    top: 12px;
 }
