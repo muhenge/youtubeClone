@@ -4,11 +4,9 @@ body{
     padding: 0;
     background-color:whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width:85%;
+   
     margin: auto;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 2px;
+
 }
 main{
     
