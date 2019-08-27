@@ -1,26 +1,27 @@
 body{
     margin: 0;
+    margin-top: 0;
     padding: 0;
     background-color:whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    margin: auto;
+
 }
 main{
-    margin-top: 95px;
+    
     padding: 12px;
     display: grid;
-
     grid-template-columns: 65% 35%;
 }
-#main{
-   
-}
+
 .vids{
-    background-color: blueviolet;
+    
     width:100%;
-    height: 350px;
+    height: 450px;
 }
 #side{
-    /* padding: 15px; */
+   
     margin-left:12px;
     background-color: white;
    
@@ -34,9 +35,7 @@ main{
 }
 .side-videos{
     margin: 10px;
-    /* width: 20%; */
-    
-    /* grid-template-columns: 35% %; */
+
 }
 
 
@@ -56,56 +55,241 @@ img{
     width: 90%;
 }
 
-/* .side-videos .vid-comment p{
-  float: right;
-  color: blue;
 
-} */
-.vid-link>a{
-
-}
 .side-videos>a>img{
     width: 185px;
 }
-.flex-container{
-    flex-direction: row;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
+
+header{
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0px;
+}
+header nav{
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: white;
+}
+header nav ul{
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0%;
+    text-align: center;
+}
+header nav ul li{
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0%;
+    text-align: center;
     
 }
- .flex-container>div{
-  width: 100px;
-  margin: 10px;
- }
+header nav ul .search{
+    width:50%;
+    height:40px;
+}
+header ul form input{
 
- .flex-container>div>form>input{
-    height: 40px;
+    width: 90%;
     box-sizing: border-box;
- }
- .flex-container>div>form>button{
-    height: 40px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-right: 0%;
+}
+header ul form button{
+    width: 10%;
     box-sizing: border-box;
-    margin-left: 0%;
-    width: 66px;
-    border-radius: 0%;
-    border-style: none;
- }
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-left: -6px;
+}
+header{
+    height: 70px;
+    width:100%;
+    box-sizing: border-box;
+    margin-top: -10px;
+    padding-top: 0px;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+ul li, ol li{
+
+    display: inline-block;
+}
+header nav{
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    text-align: center;
+}
+header nav ul .search{
+    width:53%;
+    padding: 0%;
+    box-sizing: border-box;
+    height:50px;
+    margin-left: 3%;
+}
+header ul form input{
+
+    width: 90%;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-right: 0%;
+}
+header ul form button{
+    width: 10%;
+    box-sizing: border-box;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-left: -6px;
+}
+
+header ul form{
+    padding: 0%;
+   
+}
+
  .btn{
      background: rgb(22, 122, 198);
      color: white;
-     width: 100px;
+     width: 80px;
      border-radius: 5%;
      border: none;
      height: 30px;
-     cursor : pointer;
+     box-sizing: border-box;
  }
- #uploading{
+ .logo{
+    
+     height: 40px;
+     box-sizing: border-box;
+  
+ }
+ .social{
+     box-sizing: border-box;
+     height: 30px;
+     width: 100%;
      
  }
- /* .vid-comment{
-     float: right;
+ 
+ .social .share{
+    float: left;
+    height: 30px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    padding-top: 4px;
+    cursor: pointer;
+ }
 
- } */
+ .social .likes{
+    
+    height: 30px;
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 3px;
+    padding-top: 3px;
+    list-style-type: none;
+ }
+ .social .share li a{
+    color: #777;
+    text-decoration: none;
+ }
+ .social .likes li{
+     margin-left: 5px;
+     cursor: pointer;
+     color: #777;
+ }
+ .feeds{
+     width: 100%;
+     box-sizing: border-box;
+    height: 40px;
+    
+        
+ }
+ 
+ .feeds .subscribe{
+     float: left;
+     margin-top: 3px;
+     box-sizing: border-box;
+     height: 40px;
+     line-height: 40px;
+ }
+
+ .feeds .subscribe .avater{
+    text-decoration: none;
+    margin-top: 0px;
+    
+ }
+
+ .feeds .subscribe li img{
+     position: relative;
+     top: 7px;
+ }
+
+ .feeds .views{
+     float: right;
+     box-sizing: border-box;
+     line-height: 40px;
+     margin-top: 3px;
+     font-size: 20px;
+     font-weight: bold;
+     position: relative;
+     top: 22px;
+     color: rgb(102, 102, 102);
+ }
+ .line{
+    border-bottom-color: #777;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width: 100%;
+    margin-top: 0.5px;
+ }
+
+ .feeds ol li .btnsubnumber{
+     border-style: solid;
+     background-color: whitesmoke;
+     border-radius: 0px;
+     height: 25px;
+     border-color: #ccc;
+     border-width:1px;
+     width:35px; 
+     margin: 0px;
+     margin-top: 2px;
+     color: #777;
+     line-height: 25px;
+     
+     
+ }
+
+ .feeds ol li img{
+   
+    border-radius: 0px;
+   
+}
+.feeds ol .btnlisub{
+    box-sizing: border-box;
+    padding: 0px;
+    margin-left: -16px; 
+}
+.btn-div{
+    height: 25px;
+    box-sizing: border-box;
+   
+}
+nav ul .right-component{
+    margin-left: 1.5%;
+}
+
+nav ul .right-component img, nav ul .logo{
+    position: relative;
+    top: 12px;
+}
